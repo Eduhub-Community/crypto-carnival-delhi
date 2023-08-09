@@ -1,2 +1,0 @@
-font-family: 'Jost', sans-serif;
-font-family: 'Sora', sans-serif;
