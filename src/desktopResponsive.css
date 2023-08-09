@@ -1,0 +1,724 @@
+@media (max-width:1370px) {
+    .perksHeading{
+        margin-left: 6rem;
+    }
+    
+    #heroSectionTextWrapper{
+        left: 1rem;   
+    }
+    #speakers{
+        padding: 0 ;
+    }
+    #sponsor h1{
+        margin-left: 4rem;
+    }
+    #sponsor img{
+        margin-left: 3rem;
+    }
+    #letsConnect{
+        font-size: 14px;
+        height: 46rem;
+    }
+    #speaker1div{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+@media(max-width:1800px){
+    #startingAnimationBlue{
+        background-color: #0148a3;
+        width: 100%;
+        height: 100svh;
+    
+        position: fixed;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        overflow-x: hidden;
+    
+        z-index: 101;
+        
+    }
+    
+    #startingAnimationPercent{
+        color: #0148a3;
+        font-family: var(--ff--sora);
+        font-size: 4rem;
+        font-weight: 900;
+        position: fixed;
+    
+        z-index: 102;
+    
+        bottom: 1%;
+        right: 1%;
+    }
+    
+    .startingAnimationBlueLogo{
+        position: fixed;
+        width: 18rem;
+        height: auto;
+    
+        z-index: 100;
+        
+    }
+    
+    
+    #startingAnimationWhite{
+        background-color: white;
+        width: 100%;
+        height: 100svh;
+        
+        position: fixed;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        z-index: 98;
+        
+    }
+
+
+    #speaker1div{
+        width: 100%;
+    }
+    #speakers{
+        padding: 0 ;
+    }
+}
+
+@media (max-width:1647px){
+    #startingAnimationBlue{
+        background-color: #0148a3;
+        width: 100%;
+        height: 100svh;
+    
+        position: fixed;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        overflow-x: hidden;
+    
+        z-index: 101;
+        
+    }
+    
+    #startingAnimationPercent{
+        color: #0148a3;
+        font-family: var(--ff--sora);
+        font-size: 3.5rem;
+        font-weight: 900;
+        position: fixed;
+    
+        z-index: 102;
+    
+        bottom: 1%;
+        right: 1%;
+    }
+    
+    .startingAnimationBlueLogo{
+        position: fixed;
+        width: 18rem;
+        height: auto;
+    
+        z-index: 100;
+        
+    }
+    
+    
+    #startingAnimationWhite{
+        background-color: white;
+        width: 100%;
+        height: 100svh;
+        
+        position: fixed;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        z-index: 98;
+        
+    }
+
+    #perks {
+        width: 100%;
+        height: 81rem;
+        max-width: 1920px;
+        min-width: 100px;
+        background-color: var(--cp--black);
+        display: flex;
+        flex-direction: column;
+        justify-content: initial;
+        align-items: center;
+        padding-bottom: 4rem;
+        padding-top: 10rem;
+    }
+    .hat{
+        position: relative;
+        top: 30rem;
+        right: 24rem;
+    }
+    .swag{
+        position: relative;
+        top: 30rem;
+        left: 28rem;
+    }
+}
+
+@media (max-width:1552px){
+    #startingAnimationBlue{
+        background-color: #0148a3;
+        width: 100%;
+        height: 100svh;
+    
+        position: fixed;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        overflow-x: hidden;
+    
+        z-index: 101;
+        
+    }
+    
+    #startingAnimationPercent{
+        color: #0148a3;
+        font-family: var(--ff--sora);
+        font-size: 3.5rem;
+        font-weight: 900;
+        position: fixed;
+    
+        z-index: 102;
+    
+        bottom: 1%;
+        right: 1%;
+    }
+    
+    .startingAnimationBlueLogo{
+        position: fixed;
+        width: 16rem;
+        height: auto;
+    
+        z-index: 100;
+        
+    }
+    
+    
+    #startingAnimationWhite{
+        background-color: white;
+        width: 100%;
+        height: 100svh;
+        
+        position: fixed;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        z-index: 98;
+        
+    }
+
+
+    #perks {
+        width: 100%;
+        height: 81rem;
+        max-width: 1920px;
+        min-width: 100px;
+        background-color: var(--cp--black);
+        display: flex;
+        flex-direction: column;
+        justify-content: initial;
+        align-items: center;
+        padding-bottom: 4rem;
+        padding-top: 10rem;
+    }
+    
+    .perksHeading {
+        color: white;
+        font-size: 4rem;
+        font-family: var(--ff--sora);
+        font-weight: 600;
+        margin: 0rem;
+        margin-top: 0rem;
+        margin-right: 0;
+        position: relative;
+        bottom: 9rem;
+        left: 2rem;
+    }
+    
+    
+    #perkWrapper {
+        display: none;
+        flex-direction: initial;
+        align-items: center;
+        justify-content: center;
+        
+        
+        width: 60%;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        row-gap: 10rem;
+        column-gap: 6rem;
+    }
+    
+    .swags {
+        width: 20rem;
+        height: 20rem;
+        background-color: var(--cp--darkGrey);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1rem;
+    
+    }
+    
+    .swagsImgTrim {
+        width: 14rem;
+        height: 14rem;
+    }
+    .swagImg{
+        position: initial;
+        top: 0rem;
+    }
+    .pizzaImg{
+        position: relative;
+        top: 1rem;
+    }
+    .hat{
+        position: initial;
+        top: 0rem;
+        right: 0rem;
+    }
+    
+    .swag{
+        position: initial;
+        top: 0rem;
+        left: 0rem;
+    }
+    
+    .pizza {
+        margin-left: 0rem;
+    }
+    .networking{
+        position: relative;
+        top: 1rem;
+    }
+    .knowledge{
+        position: relative;
+        top: 3.5rem;
+    }
+    
+    
+    .imgSubtitle {
+        font-size: 2rem;
+        color: white;
+        font-family: var(--ff--jost);
+        position: relative;
+        top: 6rem;
+        font-weight: 600;
+    
+    }
+
+
+
+    /* the lets connect section */
+    #letsConnect{
+        font-size: 12px;
+        width: 100%;
+        height: 53rem;
+        max-width: 1920px;
+        min-width: 100px;
+        background-color: var(--cp--white);
+        position: relative;
+        
+    }
+    .letsConnectHeading{
+        color: var(--cp--black);
+        font-weight: 600;
+        font-family: var(--ff--sora);
+        font-size: 4rem;
+    
+    }
+    .letsConnectImgTrimmer{
+        width: 20%;
+        height: auto;
+        margin: 2rem 0;
+    }
+    
+    
+    /* the socials */
+    .discord{
+        width: 20em;
+        height: 20em;
+        background-color: #7289da;
+        position: absolute;
+        top: 21em;
+        right: 6em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sizeDiscord{
+        width: 9rem;
+        height: auto;
+    }
+    
+    .twitter{
+        width: 12em;
+        height: 12em;
+        background-color: #3b92f8;
+        position: absolute;
+        top: 42em;
+        right: 14em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sizetwitter{
+        width: 5rem;
+        height: auto;
+    }
+    
+    .mediumSize{
+        width: 15em;
+        height: 15em;
+        background-color: red;
+        position: absolute;
+        top: 31em;
+        right: 27em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sizeYoutube{
+        width: 6rem;
+        height: auto;
+    }
+
+    .linkedin{
+        background-color: #386ab5;
+        top: 47em;
+        right: 27em;
+    }
+    .sizeLinkedin{
+        width: 6rem;
+        height: auto;
+    }
+    
+}
+
+
+
+@media(max-width:1300px){
+    #startingAnimationBlue{
+        background-color: #0148a3;
+        width: 100%;
+        height: 100svh;
+    
+        position: fixed;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        overflow-x: hidden;
+    
+        z-index: 101;
+        
+    }
+    
+    #startingAnimationPercent{
+        color: #0148a3;
+        font-family: var(--ff--sora);
+        font-size: 3rem;
+        font-weight: 900;
+        position: fixed;
+    
+        z-index: 102;
+    
+        bottom: 1%;
+        right: 1%;
+    }
+    
+    .startingAnimationBlueLogo{
+        position: fixed;
+        width: 14rem;
+        height: auto;
+    
+        z-index: 100;
+        
+    }
+    
+    
+    #startingAnimationWhite{
+        background-color: white;
+        width: 100%;
+        height: 100svh;
+        
+        position: fixed;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        z-index: 98;
+        
+    }
+
+
+    #navbar {
+        background-color: var(--cp--black);
+        width: 100%;
+        max-width: 1920px;
+        min-width: 100px;
+        position: fixed;
+        top: 0;
+        z-index: +10;
+    }
+    
+    .navbarWrapper {
+        list-style: none;
+        height: 5rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .linked {
+        text-decoration: none;
+        color: white;
+        font-family: var(--ff--sora);
+        font-size: 1.3rem;
+    }
+    
+    .list3 {
+        position: absolute;
+        right: 4rem;
+    
+        display: none;          
+                                /* THE DISPLAY NONE PART */
+    
+    
+        
+    }
+    
+    .list2 {
+        position: absolute;
+        right: 13.5rem;
+    
+        display: none;          
+                                /* THE DISPLAY NONE PART */
+    }
+    
+    .list1 {
+        position: absolute;
+        right: 20.5rem;
+    
+        display: none;          
+                                /* THE DISPLAY NONE PART */
+    }
+    
+    .specialLink {
+        background-color: #c9ab91;
+        color: #2c1609;
+        padding: 0.4em;
+        border-radius: 10px;
+    }
+    
+    .imgPlacer {
+        position: relative;
+        left: 2rem;
+        
+    }
+    
+    /* ======================================================== */
+    /* THE HAMBURGER MENU GOES HERE */
+    
+    #hamburgerMenuButton{
+        width: 3rem;
+        height: 3rem;
+    
+        background-color:#c9ab91;
+        border-radius: 50%;
+    
+        z-index: +12;
+    
+        position: fixed;
+        top: 1rem;
+        right: 2rem;
+    
+        display: flex;  
+                            /* THE DISPLAY NONE PART */
+    
+
+        cursor: pointer;
+    }
+    
+    
+    #hamburgerMenu{
+        width: 20rem;
+        height: 100vh;
+    
+        background-color: #2c1609;
+    
+        position: fixed;
+        top: 0rem;
+        right: -21rem;
+    
+        overflow-x: hidden;
+    
+        display: flex;
+        justify-content: start;
+        padding: 4rem;
+        padding-right: 0rem;
+        
+    
+        z-index: +11;
+    
+        display: flex; 
+                            /* THE DISPLAY NONE PART */
+    }
+    
+    #hamburgerMenuWrapper{
+        list-style: none;
+        height: auto;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .HamLink1, .HamLink2{
+        text-decoration: none;
+        color: white;
+        font-family: var(--ff--sora);
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    .HamLink3{
+        text-decoration: none;
+        color: black;
+        font-family: var(--ff--sora);
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    
+    .hamLink1list1{
+        position: relative;
+        bottom: 2rem;
+    
+    }
+    .hamLink1list2{
+        position: relative;
+    
+    }
+    .hamLink1list3{
+        position: relative;
+        top: 2rem;
+    
+    }
+    #letsConnect{
+        font-size: 10px;
+        width: 100%;
+        height: 41rem;
+        max-width: 1920px;
+        min-width: 100px;
+        background-color: var(--cp--white);
+        position: relative;
+        
+    }
+    .padding{
+        padding: 4rem 4rem;
+    }
+    .letsConnectHeading{
+        color: var(--cp--black);
+        font-weight: 600;
+        font-family: var(--ff--sora);
+        font-size: 4rem;
+    
+    }
+    .letsConnectImgTrimmer{
+        width: 20%;
+        height: auto;
+        margin: 2rem 0;
+    }
+    
+    
+    /* the socials */
+    .discord{
+        width: 20em;
+        height: 20em;
+        background-color: #7289da;
+        position: absolute;
+        top: 21em;
+        right: 6em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sizeDiscord{
+        width: 9rem;
+        height: auto;
+    }
+    
+    .twitter{
+        width: 12em;
+        height: 12em;
+        background-color: #3b92f8;
+        position: absolute;
+        top: 42em;
+        right: 14em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sizetwitter{
+        width: 5rem;
+        height: auto;
+    }
+    
+    .mediumSize{
+        width: 15em;
+        height: 15em;
+        background-color: red;
+        position: absolute;
+        top: 31em;
+        right: 27em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sizeYoutube{
+        width: 6rem;
+        height: auto;
+    }
+
+    .linkedin{
+        background-color: #386ab5;
+        top: 47em;
+        right: 27em;
+    }
+    .sizeLinkedin{
+        width: 6rem;
+        height: auto;
+    }
+    
+}

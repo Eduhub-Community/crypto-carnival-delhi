@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delhi Meetup | Eduhub</title>
+
+    <!-- ======================= -->
+    <!-- THE FAVICON GOES BELOW -->
+    <link rel="shortcut icon" href="../assets/svg/eduhubWrittenLogoBlack.svg" type="image/x-icon">
+
+
+    <!-- ========================= -->
+    <!-- THE FONTS GOES BELOW HERE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Sora&display=swap" rel="stylesheet">
+
+
+    <!-- =============================== -->
+    <!-- THE CSS LINKING GOES BELOW HERE -->
+    <link rel="stylesheet" href="../src/startingAnimation.css">
+    <link rel="stylesheet" href="../src/utilityStyles.css">
+    <link rel="stylesheet" href="../src/DesktopStyle.css">
+    <link rel="stylesheet" href="../src/ExtraLargeStyle.css">
+    <link rel="stylesheet" href="../src/desktopResponsive.css">
+    <link rel="stylesheet" href="../src/mobileResponsive.css">
+</head>
+
+<body>
+    <!-- ======================== -->
+    <!-- THE PRELOADER GOES BELOW -->
+
+    <!-- ================================= -->
+    <!-- THE STARTING ANIMATION GOES BELOW -->
+    
+    <div id="startingAnimationWhite">
+        <img class="startingAnimationBlueLogo" src="../assets/svg/EduhubBlueLogo.svg" alt="">
+        <p id="startingAnimationPercent">1</p>
+    </div>
+    <div id="startingAnimationBlue">   
+    </div>
+
+    <!-- ============================================= -->
+    <!-- THE MAIN BODY OF THE WEBSITE STARTS FROM HERE -->
+
+    <div id="mainGreyBackground">
+
+        <!-- ========== -->
+        <!-- THE NAVBAR -->
+        <div id="navbar">
+            <ul class="navbarWrapper">
+                <li><img class="imgPlacer" src="../assets/svg/eduhubWrittenLogo.svg" alt=""></li>
+                <li class="list1"><a class="linked "
+                        href="https://www.google.com/maps/place/Ecosphere/@28.6113818,77.376021,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce56ff65e5439:0xc8c042eaec502599!8m2!3d28.6113818!4d77.376021!16s%2Fg%2F11gydjr0f9?entry=ttu"
+                        target="_blank">Location</a></li>
+                <li class="list2"><a class="linked " href="#letsConnect">About</a></li>
+                <li class="list3"><a class="linked specialLink" href="https://lu.ma/cryptocarnival-ncr"
+                        target="_blank">Register</a></li>
+            </ul>
+        </div>
+
+
+        <!-- ============================= -->
+        <!-- THE HAMBURGER MENU GOES HERE -->
+        <div id="hamburgerMenuButton">
+            <img class="imgHamburgerMenuImg" src="../assets/svg/hamburgerMenu.svg" alt="">
+        </div>
+
+        <div id="hamburgerMenu">
+            <ul id="hamburgerMenuWrapper">
+                <li class="hamLink1list1"><a
+                        href="https://www.google.com/maps/place/Ecosphere/@28.6113818,77.376021,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce56ff65e5439:0xc8c042eaec502599!8m2!3d28.6113818!4d77.376021!16s%2Fg%2F11gydjr0f9?entry=ttu"
+                        target="_blank" class="HamLink1">Location</a></li>
+                <li class="hamLink1list2"><a href="#letsConnect" class="HamLink2">About</a></li>
+                <li class="hamLink1list3"><a href="https://lu.ma/cryptocarnival-ncr" target="_blank"
+                        class="specialLink HamLink3">Register</a></li>
+            </ul>
+        </div>
+
+
+
+        <!-- ================ -->
+        <!-- THE HERO SECTION -->
+        <div id="heroSection">
+            <div class="heroBackgroundImage">
+            </div>
+            <div id="heroSectionTextWrapper">
+                <p class="heroTextMedium line1">INDIA BLOCKCHAIN TOUR</p>
+                <h1 class="cityName">DELHI</h1>
+                <p class="heroTextMedium line3">CRYPTO CARNIVAL</p>
+
+
+                <div class="organizeDateVenuSection">
+                    <div class="wrapperHeroSection1">
+                        <p class="wrapperHeroSectionPara">ORGANIZED BY</p>
+                        <img src="../assets/svg/eduhubWrittenLogo.svg" alt="">
+                    </div>
+
+                    <div class="wrapperHeroSection2"></div>
+
+
+                    <!-- date of event -->
+                    <div class="wrapperHeroSection3">
+                        <p class="wrapperHeroSectionPara edits">DATE OF EVENT</p>
+                        <div class="dateWrapper">
+                            <img class="imgResizerHeroSection" src="../assets/img/calendar.png" alt="">
+                            <p class="wrapperHeroSectionPara">23rd July 2023</p>
+                        </div>
+                    </div>
+
+                    <div class="wrapperHeroSection2"></div>
+
+                    <div class="wrapperHeroSection4">
+                        <p class="wrapperHeroSectionPara paddingEdits">VENUE</p>
+
+                        <div class="dateWrapper">
+                            <img class="imgResizerHeroSection" src="../assets/svg/locationLight.svg" alt="">
+                            <p class="wrapperHeroSectionPara fontSize" onclick="venue()">ECOSPHERE</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="registernow" onclick="register()">
+                REGISTER NOW
+            </div>
+        </div>
+
+
+        <!-- ============== -->
+        <!-- EVENT TIMELINE -->
+        <div id="EventTimeline">
+            <h1 class="EventTimelineHeading">EVENT TIMELINE</h1>
+            <!-- <div class="EventTimelineUnderline"></div> -->
+            <div class="EventTimeline">
+                <img class="EventTimelineGitImage" src="../assets/svg/gitLine.svg" alt="">
+            </div>
+
+
+            <div class="EventTimelinebox box1">
+                <p class="textInEventTimelinebox">EVENT STARTS</p>
+                <img class="imgResizer" src="../assets/img/time.png" alt="">
+                <p class="textInEventTimelinebox pos">AT 3PM</p>
+            </div>
+
+
+            <div class="EventTimelinebox box2">
+                <p class="textInEventTimelinebox">CRYPTO CARNIVAL</p>
+            </div>
+
+            <div class="EventTimelinebox box3">
+                <p class="textInEventTimelinebox">FOOD BREAK</p>
+            </div>
+
+            <div class="EventTimelinebox box4">
+                <p class="textInEventTimelinebox box4txt">EVENT ENDS</p>
+                <img class="imgResizer box4Img" src="../assets/img/time.png" alt="">
+                <p class="textInEventTimelinebox box4txt2">AT 5PM</p>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+        <!-- THE ENTIRE SPEAKER SECTION IS BEING COMMENTED BECAUSE WE ARE NOT SURE IF WE ACTUALLY NEED IT OR NOT -->
+
+
+        <!-- ========== -->
+        <!-- SPEAKERS -->
+        <!-- <div id="speakers">
+            <h1>SPEAKERS</h1>
+            <div id="speaker1div">
+                
+                <div id="writingWrapper">
+                    <p class="speaker1Heading">NAME OF THE SPEAKER</p>
+                    <p class="speaker1Paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
+                        ipsam necessitatibus ipsum facilis officia esse voluptatibus et pariatur iure repellendus a,
+                        libero, harum adipisci sunt quae in eum, laborum eius dolorum provident! Laudantium est
+                        maxime
+                        eligendi? Rem asperiores id deleniti aperiam? Maiores error fuga fugit? Labore commodi
+                        quisquam
+                        ipsa sint ullam. Deleniti facere aspernatur aliquam sit nam alias possimus quam,
+                        voluptatibus
+                        enim reprehenderit quae in reiciendis. Aliquid error animi tempore quibusdam facere
+                        accusantium
+                        natus enim, aperiam voluptas eos non dolorum perferendis dignissimos possimus alias,
+                        cupiditate
+                        quasi nobis molestias! Quam nostrum laboriosam sint, consectetur a voluptatibus vitae soluta
+                        in
+                        voluptates quod?</p>
+                    </div>
+                    
+                    <img class="speaker1Image" src="../assets/img/narendraModi.jpeg" alt="">
+                </div> -->
+
+        <!-- ==================== -->
+        <!-- the second speaker -->
+        <!-- <div id="speaker2div">
+                    <img class="speaker2Image" src="../assets/img/narendraModi.jpeg" alt="">
+                    
+                    <div id="writingWrapper">
+                        <p class="speaker1Heading">NAME OF THE SPEAKER</p>
+                        <p class="speaker1Paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
+                            ipsam necessitatibus ipsum facilis officia esse voluptatibus et pariatur iure repellendus a,
+                            libero, harum adipisci sunt quae in eum, laborum eius dolorum provident! Laudantium est
+                            maxime
+                            eligendi? Rem asperiores id deleniti aperiam? Maiores error fuga fugit? Labore commodi
+                            quisquam
+                            ipsa sint ullam. Deleniti facere aspernatur aliquam sit nam alias possimus quam,
+                            voluptatibus
+                            enim reprehenderit quae in reiciendis. Aliquid error animi tempore quibusdam facere
+                            accusantium
+                            natus enim, aperiam voluptas eos non dolorum perferendis dignissimos possimus alias,
+                            cupiditate
+                            quasi nobis molestias! Quam nostrum laboriosam sint, consectetur a voluptatibus vitae soluta
+                            in
+                            voluptates quod?</p>
+                        </div>
+                        
+                    </div> -->
+
+
+
+        <!-- <div id="speaker3div">
+                        <div id="writingWrapper">
+                            <p class="speaker1Heading">NAME OF THE SPEAKER</p>
+                            <p class="speaker1Paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
+                                ipsam necessitatibus ipsum facilis officia esse voluptatibus et pariatur iure repellendus a,
+                                libero, harum adipisci sunt quae in eum, laborum eius dolorum provident! Laudantium est
+                                maxime
+                                eligendi? Rem asperiores id deleniti aperiam? Maiores error fuga fugit? Labore commodi
+                                quisquam
+                                ipsa sint ullam. Deleniti facere aspernatur aliquam sit nam alias possimus quam,
+                                voluptatibus
+                                enim reprehenderit quae in reiciendis. Aliquid error animi tempore quibusdam facere
+                                accusantium
+                                natus enim, aperiam voluptas eos non dolorum perferendis dignissimos possimus alias,
+                                cupiditate
+                                quasi nobis molestias! Quam nostrum laboriosam sint, consectetur a voluptatibus vitae soluta
+                                in
+                                voluptates quod?</p>
+                            </div>
+                            
+                            <img class="speaker1Image" src="../assets/img/narendraModi.jpeg" alt="">
+                            
+                </div>
+            </div> -->
+
+        <!-- ================ -->
+        <!-- the perk section -->
+        <div id="perks" class="">
+            <p class="perksHeading">PERKS</p>
+
+
+            <div id="perkWrapper">
+
+
+                <div class="swags swag">
+                    <img class="swagsImgTrim swagImg" src="../assets/svg/Group 37.svg" alt="">
+                    <p class="imgSubtitle">SWAGS FOR ALL</p>
+                </div>
+
+
+                <div class="swags pizza pizzaMove">
+                    <img class="swagsImgTrim pizzaImg" src="../assets/svg/pizza.png" alt="">
+                    <p class="imgSubtitle">FREE FOOD</p>
+                </div>
+
+
+                <div class="swags pizza netwrok">
+                    <img class="swagsImgTrim networking" src="../assets/img/networking.png" alt="">
+                    <p class="imgSubtitle">NETWORKING</p>
+                </div>
+
+
+                <div class="swags pizza hat">
+                    <img class="swagsImgTrim knowledge" src="../assets//img/KnowledgeSharing.png" alt="">
+                    <p class="imgSubtitle">KNOWLEDGE SHARING</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- =================== -->
+        <!-- THE SPONSOR SECTION -->
+        <div id="sponsor" class="padding">
+            <h1>SPONSOR</h1>
+            <img src="../assets/svg/catLogo.svg" alt="">
+        </div>
+
+        <!-- ==================== -->
+        <!-- LETS CONNECT SECTION -->
+        <div id="letsConnect" class="padding">
+            <h1 class="letsConnectHeading">LETS <br>CONNECT</h1>
+            <img onclick="qrCode()" class="letsConnectImgTrimmer" src="../assets/img/QRCODE.png"
+                alt="Change your brwoser">
+
+            <div class="discord" onclick="discord()">
+                <img class="sizeDiscord" src="../assets/svg/discord.svg" alt="">
+            </div>
+
+            <div onclick="twitter()" class="twitter">
+                <img class="sizetwitter" src="../assets/svg/twitter.svg" alt="">
+            </div>
+
+            <div onclick="youtube()" class="mediumSize youtube">
+                <img class="sizeYoutube" src="../assets/svg/youtube.svg" alt="">
+            </div>
+
+            <div onclick="linkedin()" class="mediumSize linkedin">
+                <img class="sizeLinkedin" src="../assets/svg/linkedin.svg" alt="">
+            </div>
+
+            <div id="noDisplay">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="../src/js/links.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="../src/js/hamburger.js"></script>
+    <script src="../src/js/startingAnimation.js"></script>
+
+</body>
+
+</html>
